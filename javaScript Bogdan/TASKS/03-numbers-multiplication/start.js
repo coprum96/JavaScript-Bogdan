@@ -7,3 +7,10 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const myNumber1 = 25
+const myNumber2 = 2
+const mult = myNumber1*myNumber2
+
+console.log(mult)
+
