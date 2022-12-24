@@ -2,17 +2,17 @@ let a
 let b 
 
 function myFn() {
-    let a 
+    let b 
     a = 20
     b = 10
-    c = a + b
-    return c
     console.log(a)
 }
 
 myFn()
 
-console.log(c)
+console.log(a)
+console.log(b)
+
 
 
 
