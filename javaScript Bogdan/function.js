@@ -49,16 +49,63 @@
 
 // myFn()
 
-const personOne = {
-    name: 'Bob',
-    age: 21
-}
+// const personOne = {
+//     name: 'Bob',
+//     age: 21
+// }
 
-function increasePersonAge(personOne) {
-    personOne.age -= 10 
-    return personOne
-}
+// function increasePersonAge(personOne) {
+//     personOne.age -= 10 
+//     return personOne
+// }
 
-increasePersonAge(personOne)
-console.log (personOne.age)
-console.log (personOne)
+// increasePersonAge(personOne)
+// console.log (personOne.age)
+// console.log (personOne)
+
+
+
+// Копии объктов
+
+// const personOne = {
+//     name: 'Bob',
+//     age: 21
+// }
+
+// function increasePersonAge(personOne) {
+//     personOne.age -= 10 
+//     return personOne
+// }
+
+// increasePersonAge(personOne)
+// console.log (personOne.age)
+
+// const personOne = {
+//     name: 'Bob',
+//     age: 21
+// }
+
+// function increasePersonAge(person) {
+//     const updatedPerson = Object.assign({}, person)
+//     updatedPerson.age += 20 
+//     return updatedPerson
+// }
+
+// const updatedPersonOne = increasePersonAge(personOne)
+// console.log(personOne.age)
+// console.log (updatedPersonOne.age)
+
+// function anotherFunction ()
+// // действия..
+
+// function fnWithCallback(callbackFunction0) {
+// }
+// fnWithCallback(anotherFunction)
+
+// function printMyName() {
+//     console.log('Stas')
+// }
+
+// console.log('masha i love you')
+// setTimeout(printMyName, 2000)
+
