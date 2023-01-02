@@ -7,3 +7,15 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+const myName = 'Stas' // this is my name
+
+const myName2 = "Medyanik"
+/* this is my 
+last name */
+
+
+
+
+
+
