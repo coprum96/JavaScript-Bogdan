@@ -12,3 +12,31 @@
  *
  * 4. Вызовите функцию
  */
+
+// let a 
+// let b
+
+
+// /* "Возвращает разницу двух чисел" */ 
+// function myFn() {
+//     a=15 /* nummber */ 
+//     b=10 /* nummber */
+//     c=a-b
+//     console.log(c)
+// }
+
+// myFn()
+
+/* "Возвращает разницу двух чисел" */ 
+/* 
+a = nummber 
+b = nummber 
+*/
+
+function diff (a, b) {
+    return a-b /* Разница чисел */
+}
+
+const result = diff(15, 10)
+console.log(result)
+

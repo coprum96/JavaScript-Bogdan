@@ -4,3 +4,10 @@
  *
  * 2. Используйте стрелочную функцию
  */
+
+
+function myFn() {
+    console.log('Hello World')
+}
+
+setTimeout(myFn, 2000)

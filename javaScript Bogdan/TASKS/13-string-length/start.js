@@ -4,3 +4,6 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+const me = 'stanislav'
+console.log(me.length)

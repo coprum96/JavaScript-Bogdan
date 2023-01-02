@@ -11,6 +11,13 @@
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
 
-let a 
+// const helloWorld = () => {
+//     return 'Hello World'
+// }
 
+// console.log(helloWorld())
+
+const hello = () => 'Hello World!'
+
+console.log(hello())
 

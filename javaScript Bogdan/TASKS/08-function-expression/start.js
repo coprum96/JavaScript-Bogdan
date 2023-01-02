@@ -11,13 +11,20 @@
  * 5. Результат вызовов функции выведите в консоль
  */
 
-let a 
+// let a 
 
-function myFn(a) {
-    a = 'stas'
-    console.log('привет, ' + a)
+// function myFn(a) {
+//     a = 'stas'
+//     console.log('привет, ' + a)
+// }
+
+// myFn()
+
+const hello = function(name) {
+    return 'Hello ' + name
 }
 
-myFn()
+console.log(hello('Stas'))
+console.log(hello('Masha'))
 
 
